@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+#todolist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  grid-gap: 20px; /* Adjust the gap between cards as needed */
+  justify-items: center; /* Center cards horizontally in each grid cell */
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 10px;
+  max-width: 300px; /* Adjust the max width of each card as needed */
+  border: 1px solid #ccc;
+}
+.status{
+  background-color: rgb(5, 39, 70);
+  color: rgb(239, 239, 245);
+  cursor: pointer;
+  padding:5px;
+}
